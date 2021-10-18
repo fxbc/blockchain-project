@@ -3,7 +3,8 @@
 // import
 const Block = require("./block");
 
-const block = new Block("time", "hash1", "hash2", "data");
-console.log(block.toString());
+// const block = new Block("time", "hash1", "hash2", "data");
+// console.log(block.toString());
 
-console.log("meraba janim");
+
+console.log(Block.genesis().toString());
